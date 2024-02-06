@@ -34,19 +34,18 @@ while rounds <= n:
          user_win += 1
     
    if user_win > computer_win:
-      print(f"Round {rounds} you win")
+      print(f"you won Round {rounds} ")
    elif user_win < computer_win:
       print(f"Computer win round {rounds}")
    else:
       print("It's draw")
    rounds += 1 
-
 print(user_win)
 print(computer_win)       
 if user_win == computer_win:
    print("It's draw")
 elif user_win > computer_win:
-   print("You won")
+   print("You win")
 else:
    print("You lose")
    
